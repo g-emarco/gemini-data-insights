@@ -1,0 +1,38 @@
+[
+    {
+        "message_id": "001",
+        "timestamp": "2023-12-23T10:00:00Z",
+        "sender": "seller123",
+        "text": "Hello! I'm excited to work with you on your project. Let's discuss the details."
+    },
+    {
+        "message_id": "002",
+        "timestamp": "2023-12-23T10:02:00Z",
+        "sender": "buyer456",
+        "text": "Hi, thanks for responding! I'm looking forward to hearing your ideas."
+    },
+    {
+        "message_id": "003",
+        "timestamp": "2023-12-23T10:04:00Z",
+        "sender": "seller123",
+        "text": "Great! I was thinking it might be easier to discuss this over a Google Meet session. We could plan more efficiently that way."
+    },
+    {
+        "message_id": "004",
+        "timestamp": "2023-12-23T10:05:00Z",
+        "sender": "buyer456",
+        "text": "That sounds good to me. When would you like to schedule the meeting?"
+    },
+    {
+        "message_id": "005",
+        "timestamp": "2023-12-23T10:06:00Z",
+        "sender": "seller123",
+        "text": "How about tomorrow at 3 PM? Also, I can offer you a better rate if we finalize the deal outside of Fiverr."
+    },
+    {
+        "message_id": "006",
+        "timestamp": "2023-12-23T10:07:00Z",
+        "sender": "buyer456",
+        "text": "That works for me. And a better rate sounds great. Let's do it."
+    }
+]

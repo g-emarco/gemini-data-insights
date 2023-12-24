@@ -1,0 +1,16 @@
+steps:
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  args:
+  - gcloud
+  - functions
+  - deploy
+  - disintermediation-detector
+  - --region=us-east1
+  - --source=./disintermediation-detector
+  - --trigger-topic=messages
+  - --runtime=python311
+  - --gen2
+  - --entry-point=subscribe
+  - --service-account=vertex-ai-consumer-273@gemini-insights.iam.gserviceaccount.com
+  - --memory=8Gi
+  - --cpu=8

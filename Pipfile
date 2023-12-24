@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+google-cloud-aiplatform = "*"
+python-dotenv = "*"
+black = "*"
+google-cloud-pubsub = "*"
+google-api-python-client = "*"
+google-cloud-secret-manager = "*"
+functions-framework = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
