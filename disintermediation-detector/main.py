@@ -1,5 +1,4 @@
 from langchain.llms import VertexAI
-import json
 
 from langchain_core.prompts import PromptTemplate
 

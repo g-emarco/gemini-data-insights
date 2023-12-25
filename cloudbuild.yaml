@@ -11,6 +11,6 @@ steps:
   - --runtime=python311
   - --gen2
   - --entry-point=subscribe
-  - --service-account=vertex-ai-consumer-273@gemini-insights.iam.gserviceaccount.com
+  - --service-account=vertex-ai-consumer-273@$PROJECT_ID.iam.gserviceaccount.com
   - --memory=8Gi
   - --cpu=8
