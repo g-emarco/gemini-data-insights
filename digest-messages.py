@@ -6,7 +6,7 @@ if __name__ == "__main__":
     BASE_DIR = "static"
     conversations = []
     for filename in os.listdir(BASE_DIR):
-        if filename.endswith(".json"):
+        if filename.endswith(".json") and "3" in filename:
             file_path = os.path.join(BASE_DIR, filename)
             with open(file_path, "r", encoding="utf-8") as file:
                 conversations.append(json.load(file))

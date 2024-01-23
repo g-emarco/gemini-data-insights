@@ -107,9 +107,9 @@ Assign the Subscriber role:
 Deploy to Cloud Function
 
 ```bash
-gcloud functions deploy disintermediation-detector \
+gcloud functions deploy offside-detector \
   --region=us-east1 \
-  --source=./disintermediation-detector \
+  --source=./offside-detector \
   --trigger-topic=messages \
   --runtime=python311 \
   --gen2 \

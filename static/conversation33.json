@@ -1,0 +1,62 @@
+[
+    {
+        "message_id": "001",
+        "timestamp": "2023-12-23T10:00:00Z",
+        "sender": "friend1",
+        "text": "Did you see that miss just now? Unbelievable! He was right in front of the goal!"
+    },
+    {
+        "message_id": "002",
+        "timestamp": "2023-12-23T10:02:00Z",
+        "sender": "friend2",
+        "text": "I know, right? I swear, even I could have scored that one. What a letdown!"
+    },
+    {
+        "message_id": "003",
+        "timestamp": "2023-12-23T10:04:00Z",
+        "sender": "friend1",
+        "text": "And again! How are they missing these sitters? It's like they're playing blindfolded!"
+    },
+    {
+        "message_id": "004",
+        "timestamp": "2023-12-23T10:05:00Z",
+        "sender": "friend2",
+        "text": "Seriously, it's like they're trying to set a record for most missed chances. My grandma could do better!"
+    },
+    {
+        "message_id": "005",
+        "timestamp": "2023-12-23T10:06:00Z",
+        "sender": "friend1",
+        "text": "This is just painful to watch. They had all the time and space, and still couldn't find the net."
+    },
+    {
+        "message_id": "006",
+        "timestamp": "2023-12-23T10:07:00Z",
+        "sender": "friend2",
+        "text": "Yeah, totally. They need to step up their game. These misses are costing them big time."
+    },
+    {
+        "message_id": "007",
+        "timestamp": "2023-12-23T10:09:00Z",
+        "sender": "friend1",
+        "text": "Wow, did you see that pass though? Absolutely brilliant! Perfect timing and precision."
+    },
+    {
+        "message_id": "008",
+        "timestamp": "2023-12-23T10:11:00Z",
+        "sender": "friend2",
+        "text": "Yeah, that was a class act. They're really controlling the midfield well. Great ball movement all around."
+    },
+    {
+        "message_id": "009",
+        "timestamp": "2023-12-23T10:13:00Z",
+        "sender": "friend1",
+        "text": "The defense is holding up pretty well too. They've been solid at the back, not giving much away."
+    },
+    {
+        "message_id": "010",
+        "timestamp": "2023-12-23T10:15:00Z",
+        "sender": "friend2",
+        "text": "True, they've been organized and disciplined. If only their finishing was as good as their defending!"
+    }
+]

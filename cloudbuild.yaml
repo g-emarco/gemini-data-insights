@@ -4,9 +4,9 @@ steps:
   - gcloud
   - functions
   - deploy
-  - disintermediation-detector
+  - goal-detector
   - --region=us-east1
-  - --source=./disintermediation-detector
+  - --source=./goal-detector
   - --trigger-topic=messages
   - --runtime=python311
   - --gen2

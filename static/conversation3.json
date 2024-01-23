@@ -1,0 +1,62 @@
+[
+    {
+        "message_id": "001",
+        "timestamp": "2023-12-23T10:00:00Z",
+        "sender": "supporter1",
+        "text": "What a start! That early goal was just spectacular. Great teamwork leading up to it."
+    },
+    {
+        "message_id": "002",
+        "timestamp": "2023-12-23T10:05:00Z",
+        "sender": "supporter2",
+        "text": "Definitely! The pass was perfect, and the finish was top-notch. Couldn't have asked for a better opening."
+    },
+    {
+        "message_id": "003",
+        "timestamp": "2023-12-23T10:10:00Z",
+        "sender": "supporter1",
+        "text": "Oh man, that should've been a goal. How did he miss from there? Just needed a simple tap-in."
+    },
+    {
+        "message_id": "004",
+        "timestamp": "2023-12-23T10:15:00Z",
+        "sender": "supporter2",
+        "text": "That miss is going to haunt them. They need to capitalize on such chances if they want to win."
+    },
+    {
+        "message_id": "005",
+        "timestamp": "2023-12-23T10:20:00Z",
+        "sender": "supporter1",
+        "text": "Incredible long pass! Straight from midfield to the striker. The defense didn't see it coming."
+    },
+    {
+        "message_id": "006",
+        "timestamp": "2023-12-23T10:25:00Z",
+        "sender": "supporter2",
+        "text": "Yeah, their vision and execution today are just outstanding. They're really dominating the field."
+    },
+    {
+        "message_id": "007",
+        "timestamp": "2023-12-23T10:30:00Z",
+        "sender": "supporter1",
+        "text": "Another goal! What a header! They're really pulling ahead now. This is turning into a one-sided match."
+    },
+    {
+        "message_id": "008",
+        "timestamp": "2023-12-23T10:35:00Z",
+        "sender": "supporter2",
+        "text": "They're playing brilliantly. Every attack seems like it could end in a goal. The opposition is struggling to keep up."
+    },
+    {
+        "message_id": "009",
+        "timestamp": "2023-12-23T10:40:00Z",
+        "sender": "supporter1",
+        "text": "Wow, a red card! That was a reckless tackle. Deserved, but it's going to change the game dynamics completely."
+    },
+    {
+        "message_id": "010",
+        "timestamp": "2023-12-23T10:45:00Z",
+        "sender": "supporter2",
+        "text": "True, playing with one less is going to be tough. Let's see how they adapt to this new challenge."
+    }
+]
