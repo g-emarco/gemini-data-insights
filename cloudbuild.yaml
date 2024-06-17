@@ -1,14 +1,29 @@
 steps:
+#- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+#  args:
+#  - gcloud
+#  - functions
+#  - deploy
+#  - disintermediation-detector
+#  - --region=us-east1
+#  - --source=./disintermediation-detector
+#  - --trigger-topic=messages
+#  - --runtime=python311
+#  - --gen2
+#  - --entry-point=subscribe
+#  - --service-account=vertex-ai-consumer-273@$PROJECT_ID.iam.gserviceaccount.com
+#  - --memory=8Gi
+#  - --cpu=8
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   args:
   - gcloud
   - functions
   - deploy
-  - goal-detector
+  - disintermediation-detector
   - --region=us-east1
-  - --source=./goal-detector
+  - --source=./disintermediation-detector
   - --trigger-topic=messages
-  - --runtime=python311
+  - --runtime=python310
   - --gen2
   - --entry-point=subscribe
   - --service-account=vertex-ai-consumer-273@$PROJECT_ID.iam.gserviceaccount.com

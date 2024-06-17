@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-langchain = "*"
+langchain = "==0.2.1"
 google-cloud-aiplatform = "*"
 python-dotenv = "*"
 black = "*"
@@ -12,6 +12,10 @@ google-cloud-pubsub = "*"
 google-api-python-client = "*"
 google-cloud-secret-manager = "*"
 functions-framework = "*"
+langchain-google-vertexai = "*"
+google-cloud-firestore = "*"
+tenacity = "==8.1.0"
+langchain-core = "==0.2.1"
 
 [dev-packages]
 

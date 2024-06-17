@@ -13,7 +13,7 @@ import base64
 from cloudevents.http import CloudEvent
 import functions_framework
 
-# {'message_id': '008', 'timestamp': '2023-12-23T10:12:00Z', 'sender': 'buyer456', 'text': 'GOALLL'}
+# {'message_id': '008', 'timestamp': '2023-12-23T10:12:00Z', 'sender': 'buyer456', 'text': 'I see your point. Do you have a platform in mind?'}
 
 
 def process_pubsub_message(event, context):
@@ -33,16 +33,17 @@ def subscribe(cloud_event: CloudEvent) -> None:
     print(f"{message_dict=}")
 
     template = (
-        "You are a helpful assistant with the goal of detecting if there was a football goal in match."
-        "Given the the message {text} between friends you should determine if it implies that there was a goal"
+        "You are a helpful assitant with the goal of detecting if there is an attempt to move a transaction of the Fiverr marketplace."
+        "Given the the message {text} you should determine wether there is such an attempt to start a zoom session / google meet session/ phone call"
+        "outside of the fiverr platform."
         "Your answer should be YES or NO."
     )
 
     prompt = PromptTemplate.from_template(template)
     llm = VertexAI(model_name="gemini-pro")
     chain = prompt | llm
-    is_goal = chain.invoke({"text": message_dict["text"]})
-    if is_goal == 'YES':
-        print("Detected goal")
+    is_disintermediation = chain.invoke({"text": message_dict["text"]})
+    if is_disintermediation == 'YES':
+        print("Detected disintermediation")
     else:
         print("Message valid")
